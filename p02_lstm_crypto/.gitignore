@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Data files
+data/
+
+# Model weights (too large)
+models/*.pt
+models/scaler.pkl
+
+# Keep history.json (small, useful)
+!models/history.json

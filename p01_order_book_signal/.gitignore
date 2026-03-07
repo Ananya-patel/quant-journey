@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Data (too large for github, regenerates automatically)
+data/
+
+# VS Code
+.vscode/
